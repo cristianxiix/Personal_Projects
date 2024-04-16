@@ -141,12 +141,12 @@ public:
 
 int main()
 {
-	Being animal1("Mamifer", "Iepure", 4, 2, "morcov");
+	Being animal1("Mammal", "Bunny", 4, 2, "Carrot");
 	animal1.printInfo();
 	Sleep(3000);
 	system("cls");
 	PersonalDevice pd1("Samsung Galaxy S23 Ultra", 1299.99);
-	Person p1("Human", "Stefan", 4, 25, "Pizza", pd1, MainWorkDevice("Amd ryzen 9 7950x", 16, 32, 3.5, 5.7, 32));
+	Person p1("Human", "Steven", 4, 25, "Pizza", pd1, MainWorkDevice("Amd Ryzen 9 7950x", 16, 32, 3.5, 5.7, 32));
 	p1.printInfo();
 	Sleep(10000);
 	//std::cout << pd1.reversePDName(pd1.getDeviceName());
@@ -154,11 +154,13 @@ int main()
 	system("cls");
 	PersonalDevice pdStef("Samsung Galaxy S23 Fan Edition", 599.99);
 	MainWorkDevice MwdStef("Intel i5- 10265U", 4, 8, 2.4, 4.5, 16);
-	Person p2("Human", "Stefania", 4, 22, "Pasta", pdStef, MwdStef);
+	Person p2("Human", "Stephanie", 4, 22, "Pasta", pdStef, MwdStef);
 	p2.printInfo();
 	palindromeCheck("MAdam");
 
-
+	PersonalDevice pdA("Apple Iphone 15", 799.99);
+	MainWorkDevice mwdA("Amd Ryzen 5 5600x", 6, 12, 3.5, 4.9, 16);
+	Person p3("Human", "Alex", 4, 20, "Mashed potatoes", pdA, mwdA);
 
 
 
